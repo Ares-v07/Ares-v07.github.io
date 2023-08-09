@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2? family= Ubuntu:wght@300 & display=swap');
+@font-face {
+  font-family: 'super_mario_256regular';
+  src: url('font/supermario256-webfont.woff2') format('woff2'),
+       url('font/supermario256-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header{
+    background-image: url(./BoomBOT.png);
+    background-position: center;
+   
+}
+header {
+    display:contents;
+  align-items: center;
+
+  
+  }
+
+  img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: -30px;
+  }
+  
+  a[href="./login.html"] {
+    float: right;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  
+    a[href="./login.html"]:hover {
+    background-color: aqua;
+    color: fff;
+    box-shadow: 0px 0px 10px #ff9900;
+  }
+  h1 {
+    color: #ff9900;
+    text-align: center;
+    text-decoration: none;
+    font-size: 4rem;
+    font-family: 'super_mario_256regular';
+   margin-top: 35px;
+    
+ 
+  
+  }
+  footer {
+    background: transparent;
+    color: #ffffff;
+  }
+  nav {
+    background-color: #292929;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    padding: 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 20px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    background-color: #ff9900;
+    color: #fff;
+    box-shadow: 0px 0px 10px #ff9900;
+  }
+  ::selection {
+    background-color: #ff9900;
+  }
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #333;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #127041;
+    border-radius: 10px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #127041;
+  }
+  
+ 
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+    
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 450px;
+    background: transparent;
+    border: 2px solid #ff9900;
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+ 
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #ff9900;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+    color: white;
+}
+.register{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+}
+.register p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+.register p a:hover{
+    text-decoration: underline;
+}
+.p {
+position: fixed;
+margin-top: 50vh;
+justify-content: left;
+}
+body {
+  background: url('./meteo-semaine-nord-pas-calais.jpg')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
