@@ -132,7 +132,7 @@ section{
     justify-content: center;
     align-items: center;
     margin-left: 40px;
-
+    animation: Box 2s linear 0s 1 normal none;
 }
 h2{
     font-size: 2em;
@@ -175,4 +175,17 @@ body {
   background: url('./meteo-semaine-nord-pas-calais.jpg')no-repeat;
     background-position: center;
     background-size: cover;
+}
+@keyframes Box {
+	0% {
+		transform: scale(1);
+	}
+
+	50% {
+		transform: scale(1.1);
+	}
+
+	100% {
+		transform: scale(1);
+	}
 }
