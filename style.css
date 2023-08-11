@@ -1,11 +1,7 @@
 @import url('https://fonts.googleapis.com/css2? family= Ubuntu:wght@300 & display=swap');
 @font-face {
-  font-family: 'super_mario_256regular';
-  src: url('font/supermario256-webfont.woff2') format('woff2'),
-       url('font/supermario256-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
+  font-family: 'SuperMario256';
+  src: url('./SuperMario256.ttf') format('truetype');
 }
 *{
     margin: 0;
@@ -32,7 +28,8 @@ header {
     margin-left: 10px;
     border-radius: 10px;
     margin-top: 10px;
-    margin-bottom: -30px;
+    margin-bottom: 10px;
+  
   }
   
   a[href="./login.html"] {
@@ -57,7 +54,7 @@ header {
     text-align: center;
     text-decoration: none;
     font-size: 4rem;
-    font-family: 'super_mario_256regular';
+    font-family: 'SuperMario256', sans-serif;
    margin-top: 35px;
     
  
