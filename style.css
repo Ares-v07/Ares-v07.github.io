@@ -88,32 +88,48 @@ img{
 }
 #nextamc{
     color: rgb(0, 0, 0);
-    margin: 0;
-    margin-left: 90vh;
-    margin-top: 50vh;
+    /* margin: 0;
+    margin-left: 0;
+    margin-top: 50vh; */
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
 }
 #nextamc:hover{
-    transform: translateY(5px);
     text-decoration: underline;
     text-decoration-color: rgb(36, 36, 36);
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -40%);
 }
 
 #maths{
 background-color: rgb(36, 36, 36);
-margin: 0;
+position: relative;
 }
 #nextmaths{
-    margin: 0;
-    margin-left: 90vh;
-    margin-top: 50vh;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -50%);
     text-decoration-color: rgb(33, 145, 153);
+}
+#nextmaths:hover{
+    text-decoration: underline;
+    text-decoration-color: rgb(36, 36, 36);
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -40%);
 }
 #imgmaths{
     background-color: beige;
 }
 #nsi{
 background-color: beige;
-margin: 0;
+position: relative;
 }
 #h2nsi{
     color: black;
@@ -129,9 +145,14 @@ margin: 0;
 #retour{
     color: black;
     text-decoration-color: rgb(0, 0, 0);
-    margin-left: 90vh;
-    margin-top: 40vh;
+    position: absolute;
+    left: 50%;
+    top: 95%;
+    transform: translate(-50%, -100%);
 }
+#retour:hover{
+    transform: translate(-50%, -90%);
 
+}
 
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
