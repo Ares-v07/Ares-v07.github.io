@@ -157,6 +157,10 @@ position: relative;
     transform: translate(-50%, -90%);
 
 }
+#imgReturn{
+    background-color: beige;
+    transform: rotate(180deg);
+}
 body::-webkit-scrollbar {
     width: 12px; /* Largeur de la scrollbar */
   }
