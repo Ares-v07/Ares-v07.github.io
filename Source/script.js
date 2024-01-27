@@ -5,3 +5,7 @@ function scrollToSection(sectionId) {
     section.scrollIntoView({ behavior: "smooth" });
   }
 }
+function playHoverSound() {
+  var audio = new Audio("hover-sound.mp3");
+  audio.play();
+}
