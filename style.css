@@ -154,5 +154,25 @@ position: relative;
     transform: translate(-50%, -90%);
 
 }
+body::-webkit-scrollbar {
+    width: 12px; /* Largeur de la scrollbar */
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0); /* Couleur de la poignée de la scrollbar */
+  }
+  
+  body::-webkit-scrollbar-track {
+    background-color: rgba(36, 36, 36, 0); /* Couleur de la piste de la scrollbar */
+  }
+  
+  /* Pour Firefox */
+  body {
+    scrollbar-width: thin; /* Définir la largeur de la scrollbar */
+  }
+  
+  body {
+    scrollbar-color: #808080 rgba(36, 36, 36, 0); /* Couleur de la poignée et de la piste de la scrollbar */
+  }
 
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
