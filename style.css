@@ -176,3 +176,8 @@ body::-webkit-scrollbar {
   }
 
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@media only screen and (max-width: 767px) {
+    h1, h2 {
+      font-size: 1.5rem; /* Taille de la police pour les smartphones */
+    }
+  }
