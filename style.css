@@ -179,5 +179,10 @@ body::-webkit-scrollbar {
 @media only screen and (max-width: 767px) {
     h1, h2 {
       font-size: 1.5rem; /* Taille de la police pour les smartphones */
+
+    }
+    .buttons-container {
+        justify-content: center;
+        margin-left: 5vh;
     }
   }
