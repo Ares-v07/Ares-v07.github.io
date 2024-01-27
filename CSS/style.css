@@ -1,12 +1,135 @@
 *{
     background-color: rgb(36, 36, 36);
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 .title-section {
     display: flex;
     justify-content: center;
+    height: 50vh;
 }
 
 h1{
     color: white;
-    
+    font-family: 'Patrick Hand', cursive;
+    font-size: 6rem;
+    transition: 0.5s;
+    background-color: rgba(240, 248, 255, 0);
 }
+h1:hover{
+    transform: translateY(7px);
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 238, 255); 
+
+}
+p{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    position: relative;
+    height: 0%;
+}
+.buttons-container {
+    justify-content: center;
+    margin-left: 30vh;
+}
+
+button {
+    color: white;
+    background-color: transparent;
+    border: none;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 2rem;
+    margin: 0px;
+    margin-right: 30px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    height: 20vh;
+}
+
+button:hover {
+    transform: translateY(5px);
+    text-decoration: underline;
+    text-decoration-color: rgb(0, 238, 255);
+}
+
+.speciality-section {
+    height: 100vh;
+}
+h2{
+    color: white;
+    font-family: 'Patrick Hand', cursive;
+    font-size: 6rem;
+    transition: 0.5s;
+    background-color: rgba(240, 248, 255, 0);
+}
+img{
+    width: 50% ;
+    height: 50%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+#amc{
+    background-color: rgb(33, 145, 153);
+    position: relative;
+}
+#h2amc{
+    color: rgb(255, 255, 255);;
+    background-color: rgb(36, 36, 36);
+    height: 15%;
+    margin: 20vh;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+}
+#pamc{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+#nextamc{
+    color: rgb(0, 0, 0);
+    margin: 0;
+    margin-left: 90vh;
+    margin-top: 50vh;
+}
+#nextamc:hover{
+    transform: translateY(5px);
+    text-decoration: underline;
+    text-decoration-color: rgb(36, 36, 36);
+}
+
+#maths{
+background-color: rgb(36, 36, 36);
+margin: 0;
+}
+#nextmaths{
+    margin: 0;
+    margin-left: 90vh;
+    margin-top: 50vh;
+}
+#imgmaths{
+    background-color: beige;
+}
+#nsi{
+background-color: beige;
+margin: 0;
+}
+#h2nsi{
+    color: black;
+    text-align: center;
+    height: 15%;
+}
+#pnsi{
+    color: black;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+#retour{
+    color: black;
+    margin-left: 90vh;
+    margin-top: 40vh;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
