@@ -112,6 +112,11 @@ img{
 background-color: rgb(36, 36, 36);
 position: relative;
 }
+#h2maths{
+    height: 15%;
+    margin: 20vh;
+    text-align: center;
+}
 #nextmaths{
     position: absolute;
     left: 50%;
