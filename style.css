@@ -194,8 +194,24 @@ body::-webkit-scrollbar {
       font-size: 1.5rem; /* Taille de la police pour les smartphones */
 
     }
+    
     .buttons-container {
         justify-content: center;
         margin-left: 5vh;
+    }
+    #pamc{
+        margin-top: -80px;
+    }
+    #pmaths{
+        margin-top: -80px;
+    }
+    #pnsi{
+        margin-top: 40px;
+    }
+    #retour:hover{
+        font-size: 1.5rem;
+    }
+    #retour{
+        font-size: 1.5rem;
     }
   }
