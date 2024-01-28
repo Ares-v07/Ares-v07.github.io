@@ -35,6 +35,7 @@ p{
 .buttons-container {
     justify-content: center;
     margin-left: 30vh;
+    height: 50vh;
 }
 
 button {
