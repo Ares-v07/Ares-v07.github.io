@@ -16,7 +16,7 @@ h1{
     color: white;
     font-family: 'Patrick Hand', cursive;
     font-size: 6rem;
-    transition: 0.5s;
+    transition: 0.2s;
     background-color: rgba(240, 248, 255, 0);
 }
 h1:hover{
