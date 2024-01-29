@@ -24,7 +24,6 @@ h1:hover{
     transform: translateY(7px);
     text-decoration: underline;
     text-decoration-color: rgb(0, 238, 255); 
-
 }
 p{
     color: white;
@@ -54,13 +53,11 @@ button {
     transition: transform 0.3s;
     height: 20vh;
 }
-
 button:hover {
     transform: translateY(5px);
     text-decoration: underline;
     text-decoration-color: rgb(0, 238, 255);
 }
-
 .starting {
     display: flex;
     flex-direction: column;
@@ -69,19 +66,16 @@ button:hover {
     margin: 0;
     height: max-content;
 }
-
 #buttonstart {
     display: block;
     margin-top: 10vh;
 }
-
 #startarrow {
     width: 15vh;
     height: 15vh;
     margin: 0;
     margin-top: -600px;
 }
-
 .speciality-section {
     height: 100vh;
 }
@@ -117,9 +111,6 @@ img{
 }
 #nextamc{
     color: rgb(255, 255, 255);
-    /* margin: 0;
-    margin-left: 0;
-    margin-top: 50vh; */
     position: absolute;
     left: 50%;
     top: 95%;
@@ -134,8 +125,8 @@ img{
 }
 
 #maths{
-background-color: rgb(36, 36, 36);
-position: relative;
+    background-color: rgb(36, 36, 36);
+    position: relative;
 }
 #h2maths{
     height: 15%;
@@ -160,8 +151,8 @@ position: relative;
     background-color: beige;
 }
 #nsi{
-background-color: beige;
-position: relative;
+    background-color: beige;
+    position: relative;
 }
 #h2nsi{
     color: black;
@@ -173,7 +164,6 @@ position: relative;
     margin-right: 30px;
     margin-left: 30px;
 }
-
 #retour{
     color: black;
     text-decoration-color: rgb(0, 0, 0);
@@ -184,40 +174,32 @@ position: relative;
 }
 #retour:hover{
     transform: translate(-50%, -90%);
-
 }
 #imgReturn{
     background-color: beige;
     transform: rotate(180deg);
 }
-body::-webkit-scrollbar {
-    width: 12px; /* Largeur de la scrollbar */
+  body::-webkit-scrollbar {
+    width: 12px;
   }
-  
   body::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0); /* Couleur de la poignée de la scrollbar */
+    background-color: rgba(0, 0, 0, 0);
   }
-  
   body::-webkit-scrollbar-track {
-    background-color: rgba(36, 36, 36, 0); /* Couleur de la piste de la scrollbar */
+    background-color: rgba(36, 36, 36, 0);
   }
-  
-  /* Pour Firefox */
   body {
-    scrollbar-width: thin; /* Définir la largeur de la scrollbar */
+    scrollbar-width: thin;
   }
-  
   body {
-    scrollbar-color: #808080 rgba(36, 36, 36, 0); /* Couleur de la poignée et de la piste de la scrollbar */
+    scrollbar-color: #808080 rgba(36, 36, 36, 0);
   }
 
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @media only screen and (max-width: 767px) {
     h1, h2 {
-      font-size: 1.8rem; /* Taille de la police pour les smartphones */
-
+      font-size: 1.8rem;
     }
-    
     .buttons-container {
         justify-content: center;
         margin-left: 5vh;
