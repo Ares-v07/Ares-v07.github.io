@@ -12,12 +12,22 @@ body{
     justify-content: center;
     height: 50vh;
 }
+video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: 0;
+  object-fit: cover;
+}
 h1{
     color: white;
     font-family: 'Patrick Hand', cursive;
     font-size: 6rem;
     transition: 0.2s;
     background-color: rgba(240, 248, 255, 0);
+    z-index: 2;
 }
 h1:hover{
     transform: translateY(7px);
@@ -28,17 +38,22 @@ p{
     color: white;
     font-family: 'Patrick Hand', cursive;
     position: relative;
-    height: 0%;
     font-size: 1.1rem;
+    background: none;
+    height: 0;
 }
 .buttons-container {
     justify-content: center;
     margin-left: 0;
     height: 50vh;
+    z-index: 1;
+    position: relative;
+
 }
 .spec{
     height: 20vh;
     margin-left: 10vh;
+    z-index: 1;
 }
 button {
     color: white;
@@ -51,11 +66,13 @@ button {
     cursor: pointer;
     transition: transform 0.3s;
     height: 20vh;
+    z-index: 1;
 }
 button:hover {
     transform: translateY(5px);
     text-decoration: underline;
     text-decoration-color: rgb(0, 238, 255);
+    z-index: 1;
 }
 .starting {
     display: flex;
@@ -64,16 +81,21 @@ button:hover {
     text-align: center;
     margin: 0;
     height: max-content;
+    z-index: 1;
+}
+#starttext{
+    z-index: 2;
 }
 #buttonstart {
     display: block;
-    margin-top: 10vh;
+    margin-top: 0vh;
+    z-index: 1;
+    height: 0;
 }
 #startarrow {
     width: 15vh;
     height: 15vh;
     margin: 0;
-    margin-top: -600px;
 }
 .speciality-section {
     height: 100vh;
@@ -99,7 +121,9 @@ img{
     color: rgb(255, 255, 255);;
     background-color: rgb(36, 36, 36);
     height: 15%;
-    margin: 20vh;
+    margin: 0vh;
+    margin-left: 20vh;
+    margin-right: 20vh;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     text-align: center;
@@ -114,6 +138,7 @@ img{
     left: 50%;
     top: 95%;
     transform: translate(-50%, -50%);
+    z-index: 0;
 }
 #nextamc:hover{
     text-decoration-color: rgba(0, 0, 0, 0);
@@ -129,7 +154,7 @@ img{
 }
 #h2maths{
     height: 15%;
-    margin: 20vh;
+    margin: 0vh;
     text-align: center;
 }
 #nextmaths{
@@ -138,6 +163,7 @@ img{
     top: 95%;
     transform: translate(-50%, -50%);
     text-decoration-color: rgb(33, 145, 153);
+    z-index: 0;
 }
 #nextmaths:hover{
     text-decoration-color: rgba(36, 36, 36, 0);
@@ -145,6 +171,7 @@ img{
     left: 50%;
     top: 95%;
     transform: translate(-50%, -40%);
+    z-index: 0;
 }
 #imgmaths{
     background-color: beige;
@@ -197,11 +224,14 @@ img{
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @media only screen and (max-width: 767px) {
     h1, h2 {
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
     .buttons-container {
         justify-content: center;
-        margin-left: 5vh;
+        margin-left: 0vh;
+    }
+    .spec{
+        margin-left: 10vh;
     }
     #pamc{
         margin-top: -80px;
