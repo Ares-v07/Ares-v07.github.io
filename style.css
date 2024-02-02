@@ -131,6 +131,7 @@ img{
 #pamc{
     margin-right: 30px;
     margin-left: 30px;
+    padding-top: 30px;
 }
 #nextamc{
     color: rgb(255, 255, 255);
@@ -234,7 +235,7 @@ img{
         margin-left: 10vh;
     }
     #pamc{
-        margin-top: -80px;
+        margin-top: 30px;
     }
     #pmaths{
         margin-top: -80px;
