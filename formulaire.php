@@ -2,11 +2,12 @@
 <html lang="fr">
 	<head>
 		<meta charset="utf-8">
-        <script type="text/javascript" src="./heure.js" defer="defer"></script>
+        <script type="text/javascript" src="../js/heure.js" defer="defer"></script>
 		<title>Utilisation d'Apache</title>
 	</head>
 	<body>
 		<p>Le serveur Apache fonctionne parfaitement</p>
+        <p>En php la date est : <span><?php echo date("r"); ?></span> </p>
         <p>En javascript la date est : <span id="span1"></span></p>
 	</body>
-</html>e
+</html>
