@@ -2,11 +2,14 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-color: #f4f4f4;
-    margin: 0;
+    background: rgb(150,0,0);
+    background: linear-gradient(90deg, rgba(150,0,0,1) 0%, rgba(253,29,29,1) 50%, rgba(255,146,146,1) 100%);    margin: 0;
     padding: 0;
 }
-
+#clock {
+    font-size: 3em;
+    font-family: 'Carre-JWja';
+}
 h1 {
     margin-top: 20px;
 }

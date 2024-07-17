@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+    <div id="clock"></div>
+
     <h1>Statistiques de Musculation</h1>
     
     <canvas id="repsChart" width="400" height="200"></canvas>
@@ -24,5 +26,18 @@
 
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="scripts.js"></script>
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const timeString = `${hours}:${minutes}:${seconds}`;
+            document.getElementById('clock').textContent = timeString;
+        }
+
+        setInterval(updateClock, 1000); // Met à jour l'heure toutes les secondes
+        updateClock(); // Met à jour immédiatement pour afficher l'heure dès le chargement de la page
+    </script>
 </body>
 </html>
