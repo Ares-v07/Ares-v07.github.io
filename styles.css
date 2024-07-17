@@ -1,4 +1,16 @@
 /* styles.css */
+@font-face {
+    font-family: 'GlitchingDemo';
+    src: url('./glitching/GlitchingDemoRegular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: 'Carre-JWja';
+    src: url(./Carre-JWja.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     font-family: Arial, sans-serif;
     text-align: center;

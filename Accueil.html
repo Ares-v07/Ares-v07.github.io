@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Style.css">
+    <title>GymStatsTracker</title>
+</head>
+<body>
+    <div id="clock"></div>
+
+    <h1>Gym Tracker</h1>
+    <div class="img">
+       <a href="./index.html"><img src="./svg/form1.svg" alt=""></a>
+        <a href="./index.html"><p>Séance épaule</p></a>
+    </div>
+
+<div class="img2"> 
+    <p>test</p>
+    <img src="./svg/form2.svg" alt="">
+    
+</div>
+   
+
+
+
+
+<footer>        <p>GymStatsTracker est une page web developpée par <a href="https://www.youtube.com/@HubUSB_">HubUSB</a>.</p>
+</footer>
+
+
+    <script>
+        function updateClock() {
+            const now = new Date();
+            const hours = String(now.getHours()).padStart(2, '0');
+            const minutes = String(now.getMinutes()).padStart(2, '0');
+            const seconds = String(now.getSeconds()).padStart(2, '0');
+            const timeString = `${hours}:${minutes}:${seconds}`;
+            document.getElementById('clock').textContent = timeString;
+        }
+
+        setInterval(updateClock, 1000); // Met à jour l'heure toutes les secondes
+        updateClock(); // Met à jour immédiatement pour afficher l'heure dès le chargement de la page
+    </script>
+</body>
+</html>
