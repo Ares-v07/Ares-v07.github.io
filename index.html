@@ -1,31 +1,34 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MuscleMetrics</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="./Style.css">
+    <title>GymStatsTracker</title>
 </head>
 <body>
     <div id="clock"></div>
 
-    <h1>Statistiques de Musculation</h1>
+    <h1>Gym Tracker</h1>
+    <div class="img">
+       <a href="./index.html"><img src="./svg/form1.svg" alt=""></a>
+        <a href="./index.html"><p>Séance épaule</p></a>
+    </div>
+
+<div class="img2"> 
+    <p>test</p>
+    <img src="./svg/form2.svg" alt="">
     
-    <canvas id="repsChart" width="400" height="200"></canvas>
-    <canvas id="weightChart" width="400" height="200"></canvas>
+</div>
+   
 
-    <form id="dataForm">
-        <label for="session">Séance :</label>
-        <input type="number" id="session" required>
-        <label for="reps">Nombre de répétitions :</label>
-        <input type="number" id="reps" required>
-        <label for="weight">Poids (kg) :</label>
-        <input type="number" id="weight" required>
-        <button type="submit">Ajouter</button>
-    </form>
 
-    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <script src="scripts.js"></script>
+
+
+<footer>        <p>GymStatsTracker est une page web developpée par <a href="https://www.youtube.com/@HubUSB_">HubUSB</a>.</p>
+</footer>
+
+
     <script>
         function updateClock() {
             const now = new Date();
