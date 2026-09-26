@@ -1,37 +1,259 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles.css">
-    <title>Mon Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Portfolio - Valentin</title>
 </head>
+
 <body>
+
+    <!-- BARRE LATERALE -->
     <header>
+
         <div class="logo">
-            <img src="logo.png" alt="Mon Logo">
+            <h1>Portfolio</h1>
         </div>
+
         <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#projets">Projets</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+            <a href="#hero">Accueil</a>
+            <a href="#projects">Projets</a>
+            <a href="#contact">Contact</a>
         </nav>
+
+        <div class="footer-menu">
+            <p>
+                <img
+                    src="./img/pas-de-droit-dauteur.png"
+                    width="30"
+                    height="30"
+                    alt="Copyright"
+                >
+                2026
+            </p>
+        </div>
+
     </header>
-    <div class="container">
-        <section id="accueil" class="section-card">
-            <h1>Bienvenue sur mon portfolio !</h1>
-            <p>Je suis passionné par la création de sites web.</p>
+
+
+    <!-- CONTENU PRINCIPAL -->
+    <main>
+
+
+        <!-- ==================== ACCUEIL ==================== -->
+
+        <section class="hero" id="hero">
+
+            <div class="glass-card">
+
+                <h2>Valentin CHIEPPERIN</h2>
+
+                <h3>Bienvenue sur mon portfolio</h3>
+
+                <p>
+                    Bonjour, je m'appelle Valentin CHIEPPERIN. Je suis actuellement
+                    étudiant, j'ai intégré le BUT Génie Électrique et
+                    Informatique Industrielle (GEII) de L'I.U.T. de Chartres.
+
+                    J'ai obtenu un baccalauréat STI2D spécialité Systèmes
+                    d'Information et Numérique (SIN) avec la mention Bien.
+                    Cette formation m'a permis d'acquérir des bases solides
+                    en programmation, en développement de projets numériques
+                    et en conception de systèmes informatiques.
+
+                    Passionné par les nouvelles technologies et la création
+                    de projets, je souhaite continuer à développer mes
+                    compétences dans les domaines de l'informatique,
+                    des systèmes embarqués et du développement.
+
+                    À travers ce portfolio, je vous présente mes réalisations,
+                    mes projets et mon évolution dans le monde du numérique.
+                </p>
+
+                <a href="#projects">Voir mes projets</a>
+
+            </div>
+
         </section>
-        <section id="projets" class="section-card">
+
+
+        <!-- ==================== PROJETS ==================== -->
+
+        <section class="projects" id="projects">
+
             <h2>Mes Projets</h2>
-            <!-- Listez vos projets ici -->
+
+
+            <div class="projects-carousel">
+
+                <!-- FLÈCHE GAUCHE -->
+
+                <button
+                    class="arrow left"
+                    onclick="scrollProjects(-1)"
+                    aria-label="Projet précédent"
+                >
+                    &#10094;
+                </button>
+
+
+                <!-- CONTENEUR DES PROJETS -->
+
+                <div class="projects-container" id="projectsContainer">
+
+
+                    <!-- PROJET 1 -->
+
+                    <div class="form-box">
+
+                        <div class="project-content">
+
+                            <h3>Projet 1</h3>
+
+                            <div class="spinner-container">
+
+                                <div class="spinner">
+                                    <div class="spinner1"></div>
+                                </div>
+
+                                <p>En maintenance</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PROJET 2 -->
+
+                    <div class="form-box">
+
+                        <div class="project-content">
+
+                            <h3>Projet 2</h3>
+
+                            <div class="spinner-container">
+
+                                <div class="spinner">
+                                    <div class="spinner1"></div>
+                                </div>
+
+                                <p>En maintenance</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PROJET 3 -->
+
+                    <div class="form-box">
+
+                        <div class="project-content">
+
+                            <h3>Projet 3</h3>
+
+                            <div class="spinner-container">
+
+                                <div class="spinner">
+                                    <div class="spinner1"></div>
+                                </div>
+
+                                <p>En maintenance</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PROJET 4 -->
+
+                    <div class="form-box">
+
+                        <div class="project-content">
+
+                            <h3>Projet 4</h3>
+
+                            <div class="spinner-container">
+
+                                <div class="spinner">
+                                    <div class="spinner1"></div>
+                                </div>
+
+                                <p>En maintenance</p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <!-- PROJET 5 -->
+
+                    <div class="form-box">
+
+                            <div class="project-content">
+
+                                <h3>Test 5</h3>
+
+
+                                <img src="./img/téléchargement.jpeg" alt="test">
+                                <a href="./projet1.html">Voir le projet</a>
+                            </div>
+
+                        
+
+                    </div>
+
+                </div>
+                
+
+                <!-- FLÈCHE DROITE -->
+
+                <button
+                    class="arrow right"
+                    onclick="scrollProjects(1)"
+                    aria-label="Projet suivant"
+                >
+                    &#10095;
+                </button>
+
+            </div>
+
         </section>
-        <section id="contact" class="section-card">
-            <h2>Contactez-moi</h2>
-            <!-- Formulaire de contact ou informations de conerertact -->
+
+
+        <!-- ==================== CONTACT ==================== -->
+
+        <section class="contact" id="contact">
+
+            <h2>Contact</h2>
+
+            <p>
+                Adresse e-mail :
+                <a href="mailto:valentin.chiepperin@proton.me">
+                    me contacter
+                </a>
+            </p>
+
         </section>
-    </div>
+
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
