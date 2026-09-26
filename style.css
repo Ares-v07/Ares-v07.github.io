@@ -246,7 +246,7 @@ section {
 
     font-size: 50px;
 
-    color: #380080;
+    color: #6f00ff;
 
     margin-bottom: 20px;
 
@@ -547,7 +547,7 @@ section {
 
 
 /* ============================= */
-/* FLECHES */
+/* FLECHES DE SCROLL HORIZONTAL*/
 /* ============================= */
 
 .arrow {
@@ -669,7 +669,7 @@ section {
 
 
 /* ============================= */
-/* MOBILE */
+/* MOBILE (responsive)*/
 /* ============================= */
 
 @media (max-width: 768px) {
